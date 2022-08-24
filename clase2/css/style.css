@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    background-image: url(../image/fondo.jpg);
+    font-family: 'DynaPuff', cursive;
+    
+    
+
+}
+
+/*1rem=10px*/
+body {
+    font-size: 16px;
+}
+.home{
+    background-color: rgb(214, 170, 255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    
+}
+
+.home header{
+    grid-column: 1;
+}
+
+.home nav{
+    text-align: center;
+}
+
+h1 span {
+    font-size: 4rem;
+}
+
+ 
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;  
+    font-size: 2rem;
+    
+
+
+}
+nav a:hover{
+    
+    background-color: pink;
+    border-radius: 5%;
+    
+    
+}
+
+
+#margen{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 2%;
+    background-color: rgb(213, 253, 240);
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+div section{
+    margin: 10px;
+}
+section p{
+    margin: 10px;
+    
+}
+section a{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+section a:hover{
+    color: white;
+}
+
+footer{
+    background-color: rgb(214, 170, 255);
+    padding: 25px;
+    
+    
+}
